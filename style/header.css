@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.analytics-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.moon-btn {
+  border: none;
+  background: none;
+}
+
+.moon-btn:hover {
+  cursor: pointer;
+}
+
+.moon-btn:active {
+  cursor: pointer;
+}
+
+.moon-icon {
+  height: 2rem;
+  width: 2rem;
+}
