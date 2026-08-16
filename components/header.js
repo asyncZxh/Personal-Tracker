@@ -1,5 +1,5 @@
-export default function () {
-  return `<div class="header">
+export  function header() {
+  return `<header class="header">
             <div class="title-box">
               <h1>Personal Tracker</h1>
               <ion-icon name="analytics-outline" class="analytics-icon"></ion-icon>
@@ -7,5 +7,5 @@ export default function () {
               <button class="moon-btn">
                 <ion-icon name="moon" class="moon-icon"></ion-icon>
               </button>
-          </div>`;
+          </header>`;
 }
