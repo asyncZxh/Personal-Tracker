@@ -1,4 +1,4 @@
-export  function header() {
+export function header() {
   return `<header class="header">
             <div class="title-box">
               <h1>Personal Tracker</h1>
