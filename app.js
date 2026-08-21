@@ -1,5 +1,5 @@
-import { HomePage } from './pages/home.js';
+import { page } from './pages/page.js';
 
 const app = document.getElementById('app');
 
-app.innerHTML = HomePage();
+app.innerHTML = page();
